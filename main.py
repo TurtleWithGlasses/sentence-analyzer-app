@@ -5,9 +5,9 @@ sg.theme("DarkTeal10")
 
 analyzer = SentimentIntensityAnalyzer()
 label1 = sg.Text("Type in a sentence below")
-input_box = sg.InputText(tooltip="Enter: ")
+input_box = sg.InputText(tooltip="Enter your sentence here ")
 button = sg.Button("Execute", size=(10,1), mouseover_colors="gray")
-label2 = sg.Text("")
+label2 = sg.Text("Negativity and positivity scores of your sentence will be calculated here")
 
 layout=[[label1],
        [input_box, button],
