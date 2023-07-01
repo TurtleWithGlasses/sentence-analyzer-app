@@ -1,0 +1,1 @@
+This app is calculating the positivity & negativity of the sentence you enter and gives you the score.
